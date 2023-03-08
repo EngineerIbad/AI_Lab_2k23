@@ -1,6 +1,6 @@
 # import csv
 # from collections import Counter
-from wordcloud import WordCloud
+# from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 
 
@@ -37,7 +37,7 @@ for word in keywords:
 
 
 # # Job 4: Create wordcloud from word frequency dictionary using WordCloud library
-wordcloud = WordCloud(width=800, height=800, background_color='white').generate_from_frequencies(word_freq)
+# wordcloud = WordCloud(width=800, height=800, background_color='white').generate_from_frequencies(word_freq)
 
 # Job 5: Display wordcloud using matplotlib
 plt.figure(figsize=(8, 8), facecolor=None)
